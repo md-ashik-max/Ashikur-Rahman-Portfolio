@@ -31,3 +31,13 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer utilities {
+  .custom-line {
+    @apply w-1;
+    height: 200px;
+    background: linear-gradient(to bottom, rgba(0, 188, 212, 1) 0%, rgba(0, 188, 212, 0.2) 100%);
+    transform: scaleX(0.5); /* Thinner at the top */
+    transform-origin: top;
+  }
+}

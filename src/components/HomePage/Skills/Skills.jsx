@@ -10,7 +10,7 @@ const Skills = () => {
         Aos.init({ duration: 2000 });
     }, []);
     return (
-        <div id="skills" className="my-24 pb-24 max-w-6xl mx-auto">
+        <div id="skills" className="my-24 max-w-6xl mx-auto">
             <div className="grid grid-cols-3 md:grid-cols-6 gap-12">
                 <div data-aos="fade-up">
                     <Image

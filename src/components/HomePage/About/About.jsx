@@ -12,7 +12,7 @@ const About = () => {
 
     return (
         <div id="about" className="max-w-6xl mx-6 lg:mx-auto my-24">
-            <div className="grid grid-cols-2 gap-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                 <div>
                     <h3 className="text-xl">INTRODUCTION</h3>
                     <h1 className="text-5xl font-bold my-4">Overview.</h1>

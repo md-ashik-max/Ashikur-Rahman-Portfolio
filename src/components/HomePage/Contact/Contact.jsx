@@ -14,7 +14,7 @@ const Contact = () => {
     return (
         <div id='contact' className="min-h-screen bg-gradient-to-r from-gray-800 via-gray-900 to-black text-white">
             <div className='max-w-6xl mx-auto pt-24'>
-                <div className="grid grid-cols-2">
+                <div className="grid grid-cols-1 md:grid-cols-2">
                     <div data-aos="fade-right" data-aos-delay="100" className="bg-gray-900 p-10 rounded-lg shadow-lg max-w-lg">
                         <p className='font-bold'>WRITE ME FEEDBACK</p>
                         <h2 className="text-5xl font-bold my-4">Contact Me</h2>
